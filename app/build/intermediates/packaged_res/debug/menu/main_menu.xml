@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/AccountMenu"
+        android:title="Account"
+        android:onClick="switchAccountMenu"/>
+    <item
+        android:id="@+id/ModerationMenu"
+        android:title="Moderation"
+        android:onClick="switchModerationMenu"/>
+    <item
+        android:id="@+id/CreateEventMenu"
+        android:title="Create Event"
+        android:onClick="switchCreateEventMenu"/>
+    <item
+        android:id="@+id/EventsMenu"
+        android:title="Events"
+        android:onClick="switchEventsMenu"/>
+</menu>

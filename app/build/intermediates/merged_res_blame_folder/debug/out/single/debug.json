@@ -8,6 +8,10 @@
         "source": "com.example.eventfinder.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.eventfinder.app-merged_res-29:/layout_activity_account.xml.flat",
+        "source": "com.example.eventfinder.app-main-31:/layout/activity_account.xml"
+    },
+    {
         "merged": "com.example.eventfinder.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.example.eventfinder.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -28,8 +32,12 @@
         "source": "com.example.eventfinder.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.eventfinder.app-merged_res-29:/layout_create_event.xml.flat",
-        "source": "com.example.eventfinder.app-main-31:/layout/create_event.xml"
+        "merged": "com.example.eventfinder.app-merged_res-29:/layout_activity_moderate.xml.flat",
+        "source": "com.example.eventfinder.app-main-31:/layout/activity_moderate.xml"
+    },
+    {
+        "merged": "com.example.eventfinder.app-merged_res-29:/layout_activity_create_event.xml.flat",
+        "source": "com.example.eventfinder.app-main-31:/layout/activity_create_event.xml"
     },
     {
         "merged": "com.example.eventfinder.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -60,12 +68,12 @@
         "source": "com.example.eventfinder.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.eventfinder.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.eventfinder.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.eventfinder.app-merged_res-29:/menu_main_menu.xml.flat",
+        "source": "com.example.eventfinder.app-main-31:/menu/main_menu.xml"
     },
     {
-        "merged": "com.example.eventfinder.app-merged_res-29:/layout_account.xml.flat",
-        "source": "com.example.eventfinder.app-main-31:/layout/account.xml"
+        "merged": "com.example.eventfinder.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.eventfinder.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.eventfinder.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
@@ -74,9 +82,5 @@
     {
         "merged": "com.example.eventfinder.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.example.eventfinder.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.eventfinder.app-merged_res-29:/layout_moderation.xml.flat",
-        "source": "com.example.eventfinder.app-main-31:/layout/moderation.xml"
     }
 ]

@@ -24,7 +24,7 @@ public class CreateEvent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_event);
 
-        this.getActionBar().setTitle("Create Event");
+        //this.getActionBar().setTitle("Create Event");
 
         name = findViewById(R.id.eventName);
         date = findViewById(R.id.eventDate);

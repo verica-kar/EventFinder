@@ -28,6 +28,27 @@
         android:testOnly="true"
         android:theme="@style/Theme.EventFinder" >
         <activity
+            android:name="com.example.eventfinder.CreateEvent"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.eventfinder.Moderate"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.eventfinder.Account"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.eventfinder.MainActivity"
             android:exported="true" >
             <intent-filter>

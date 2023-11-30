@@ -9,6 +9,10 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id AccountMenu
+id CreateEventMenu
+id EventsMenu
+id ModerationMenu
 id button
 id checkBox
 id description
@@ -21,10 +25,11 @@ id textView3
 id textView4
 id textView5
 id textView6
-layout account
+layout activity_account
+layout activity_create_event
 layout activity_main
-layout create_event
-layout moderation
+layout activity_moderate
+menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

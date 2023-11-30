@@ -6,90 +6,129 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml
+8-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml
+9-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] /Users/vericakaranakova/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.eventfinder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] /Users/vericakaranakova/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] /Users/vericakaranakova/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.eventfinder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] /Users/vericakaranakova/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] /Users/vericakaranakova/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:5:5-28:19
+17-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:5:5-49:19
 18        android:allowBackup="true"
-18-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:6:9-35
+18-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] /Users/vericakaranakova/.gradle/caches/transforms-3/9811bf6e0ea8002748e1a5d1e9eb40bd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:7:9-65
+20-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:8:9-54
+23-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:9:9-43
+24-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:10:9-41
+25-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:11:9-54
+26-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:12:9-35
+27-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.EventFinder" >
-29-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:13:9-49
+29-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:13:9-49
 30        <activity
-30-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:15:9-27:20
-31            android:name="com.example.eventfinder.MainActivity"
-31-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:16:13-41
-32            android:exported="true" >
-32-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:17:13-36
-33            <intent-filter>
-33-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:18:13-22:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:19:17-69
-34-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:19:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:21:17-77
-36-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:21:27-74
-37            </intent-filter>
-38
-39            <meta-data
-39-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:24:13-26:36
-40                android:name="android.app.lib_name"
-40-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:25:17-52
-41                android:value="" />
-41-->/Users/vericakaranakova/Desktop/eventFinder/EventFInder/app/src/main/AndroidManifest.xml:26:17-33
-42        </activity>
-43
-44        <provider
-44-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-45            android:name="androidx.startup.InitializationProvider"
-45-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-46            android:authorities="com.example.eventfinder.androidx-startup"
-46-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-47            android:exported="false" >
-47-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-48            <meta-data
-48-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-49-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-50                android:value="androidx.startup" />
-50-->[androidx.emoji2:emoji2:1.2.0] /Users/vericakaranakova/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-51            <meta-data
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/vericakaranakova/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/vericakaranakova/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-53                android:value="androidx.startup" />
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/vericakaranakova/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-54        </provider>
-55    </application>
+30-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:15:9-21:20
+31            android:name="com.example.eventfinder.CreateEvent"
+31-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:16:13-40
+32            android:exported="false" >
+32-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:17:13-37
+33            <meta-data
+33-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:22:9-28:20
+38            android:name="com.example.eventfinder.Moderate"
+38-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:23:13-37
+39            android:exported="false" >
+39-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:24:13-37
+40            <meta-data
+40-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:29:9-35:20
+45            android:name="com.example.eventfinder.Account"
+45-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:30:13-36
+46            android:exported="false" >
+46-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+48                android:name="android.app.lib_name"
+48-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+49                android:value="" />
+49-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+50        </activity>
+51        <activity
+51-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:36:9-48:20
+52            android:name="com.example.eventfinder.MainActivity"
+52-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:37:13-41
+53            android:exported="true" >
+53-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:38:13-36
+54            <intent-filter>
+54-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:39:13-43:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:40:17-69
+55-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:40:25-66
 56
-57</manifest>
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:42:17-77
+57-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:42:27-74
+58            </intent-filter>
+59
+60            <meta-data
+60-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+61                android:name="android.app.lib_name"
+61-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+62                android:value="" />
+62-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+63        </activity>
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+67            android:authorities="com.example.eventfinder.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+75        </provider>
+76    </application>
+77
+78</manifest>
