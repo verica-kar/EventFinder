@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id checkBox
+id description
+id eventDate
+id eventName
+id location
+id startTime
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
+layout account
+layout activity_main
+layout create_event
+layout moderation
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.EventFinder
+xml backup_rules
+xml data_extraction_rules
