@@ -13,6 +13,20 @@
         android:theme="@style/Theme.EventFinder"
         tools:targetApi="33">
         <activity
+            android:name=".EventAdapter"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EventViewHolder"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".CreateEvent"
             android:exported="false">
             <meta-data
