@@ -1,6 +1,8 @@
 package com.example.eventfinder;
 
-public class Event {
+import java.io.Serializable;
+
+public class Event implements Serializable {
 
     String name, date, time, location, description;
 
@@ -30,5 +32,25 @@ public class Event {
 
     public String getLocation() {
         return location;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

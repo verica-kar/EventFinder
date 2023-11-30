@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
@@ -24,7 +25,7 @@ public class CreateEvent extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_event);
 
-        //this.getActionBar().setTitle("Create Event");
+//        this.getActionBar().setTitle("Create Event");
 
         name = findViewById(R.id.eventName);
         date = findViewById(R.id.eventDate);
@@ -33,18 +34,63 @@ public class CreateEvent extends AppCompatActivity {
         des = findViewById(R.id.description);
         des.setMovementMethod(new ScrollingMovementMethod());
         sub = findViewById(R.id.button);
+        Event event;
 
-//        Intent intent = getIntent();
-//        if (intent.hasExtra("EDIT_NOTE")){
-//            note = (Note) intent.getSerializableExtra("EDIT_NOTE");
-//            title.setText(note.getTitle());
-//            text.setText(note.getNoteText());
-//        }
+        Intent intent = getIntent();
+        if (intent.hasExtra("EDIT_EVENT")){
+            event = (Event) intent.getSerializableExtra("EDIT_EVENT");
+            name.setText(event.getName());
+            date.setText(event.getDate());
+            time.setText(event.getTime());
+            loc.setText(event.getLocation());
+            des.setText(event.getDescription());
+        }
     }
 
     public void submitButton(View view) {
-        Event e = new Event(name.getText().toString(), date.getText().toString(), time.getText().toString(), loc.getText().toString(), des.getText().toString());
-        
+        if (!name.getText().toString().isEmpty() && !date.getText().toString().isEmpty() && !time.getText().toString().isEmpty() && !loc.getText().toString().isEmpty() && !des.getText().toString().isEmpty()) {
+            Event e = new Event(name.getText().toString(), date.getText().toString(), time.getText().toString(), loc.getText().toString(), des.getText().toString());
+
+            String key = "NEW_EVENT";
+
+            Intent intent = getIntent();
+            if (intent.hasExtra("EDIT_EVENT")) {
+                key = "UPDATE_EVENT";
+            }
+
+//            if (e != null) {
+//                if (e.getTitle().equals(title2) && e.getNoteText().equals(text2)) {
+//                    onBackPressed();
+//                }
+//            }
+
+            Intent data = new Intent();
+            data.putExtra(key, e);
+            if (intent.hasExtra("EDIT_POS")) {
+                int pos = intent.getIntExtra("EDIT_POS", 0);
+                data.putExtra("UPDATE_POS", pos);
+            }
+            setResult(RESULT_OK, data);
+            finish();
+
+        } else if (name.getText().toString().isEmpty() || date.getText().toString().isEmpty() || time.getText().toString().isEmpty() || loc.getText().toString().isEmpty() || des.getText().toString().isEmpty()) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setPositiveButton("CANCEL", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                }
+            });
+            builder.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    CreateEvent.super.onBackPressed();
+                }
+            });
+            builder.setTitle("Missing Information");
+            builder.setMessage("Your event will not save without all information.");
+            AlertDialog dialog = builder.create();
+            dialog.show();
+        }
     }
 
 
