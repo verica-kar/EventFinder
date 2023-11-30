@@ -64,14 +64,13 @@ public class CreateEvent extends AppCompatActivity {
 //                }
 //            }
 
-            Intent data = new Intent();
+            Intent data = new Intent(this , MainActivity.class);
             data.putExtra(key, e);
             if (intent.hasExtra("EDIT_POS")) {
                 int pos = intent.getIntExtra("EDIT_POS", 0);
                 data.putExtra("UPDATE_POS", pos);
             }
-            setResult(RESULT_OK, data);
-            finish();
+            startActivity(data);
 
         } else if (name.getText().toString().isEmpty() || date.getText().toString().isEmpty() || time.getText().toString().isEmpty() || loc.getText().toString().isEmpty() || des.getText().toString().isEmpty()) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);

@@ -22,11 +22,11 @@ com.example.eventfinder.app-lifecycle-viewmodel-savedstate-2.5.1-20 C:\Users\McC
 com.example.eventfinder.app-core-ktx-1.9.0-21 C:\Users\McClure\.gradle\caches\transforms-3\d5f5daab6348a10d8c25074b8e066410\transformed\core-ktx-1.9.0\res
 com.example.eventfinder.app-cardview-1.0.0-22 C:\Users\McClure\.gradle\caches\transforms-3\fa3659a04c6e45d556b5f8662112b28b\transformed\cardview-1.0.0\res
 com.example.eventfinder.app-coordinatorlayout-1.1.0-23 C:\Users\McClure\.gradle\caches\transforms-3\fe0fd5ae30eba395a4c7b39f593407e5\transformed\coordinatorlayout-1.1.0\res
-com.example.eventfinder.app-pngs-24 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\build\generated\res\pngs\debug
-com.example.eventfinder.app-resValues-25 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\build\generated\res\resValues\debug
-com.example.eventfinder.app-rs-26 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\build\generated\res\rs\debug
-com.example.eventfinder.app-packageDebugResources-27 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.eventfinder.app-packageDebugResources-28 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.eventfinder.app-merged_res-29 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\build\intermediates\merged_res\debug
-com.example.eventfinder.app-debug-30 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\debug\res
-com.example.eventfinder.app-main-31 C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\res
+com.example.eventfinder.app-pngs-24 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\build\generated\res\pngs\debug
+com.example.eventfinder.app-resValues-25 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\build\generated\res\resValues\debug
+com.example.eventfinder.app-rs-26 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\build\generated\res\rs\debug
+com.example.eventfinder.app-packageDebugResources-27 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.eventfinder.app-packageDebugResources-28 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.eventfinder.app-merged_res-29 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\build\intermediates\merged_res\debug
+com.example.eventfinder.app-debug-30 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\src\debug\res
+com.example.eventfinder.app-main-31 C:\Users\McClure\AndroidStudioProjects\git project 3\EventFinder\app\src\main\res

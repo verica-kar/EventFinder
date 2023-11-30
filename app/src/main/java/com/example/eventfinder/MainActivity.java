@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.JsonWriter;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -51,7 +52,12 @@ public class MainActivity extends AppCompatActivity {
         eventList.add(new Event("Rock Climbing" , "Wednesday" , "5:00" , "MTCC" , "Meet us for weekly climbing gym trips"));
         eventList.add(new Event("Lettuce club" , "12/25/23" , "8:00" , "Fire place" , "Christmas morning lettuce breakfast for international students"));
         eventList.add(new Event("Student Life" , "10/31/23" , "7:30" , "Your Dorm" , "Reverse trick or treat!"));
-
+        Intent intent = getIntent();
+        if (intent.hasExtra("NEW_EVENT")){
+            Event newEvent = (Event) intent.getSerializableExtra("NEW_EVENT");
+            eventList.add(newEvent);
+            Log.d("", "onCreate: add new event");
+        }
         activityResultLauncher = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
                 this::handleResult);
