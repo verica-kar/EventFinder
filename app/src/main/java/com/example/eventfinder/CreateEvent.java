@@ -44,6 +44,7 @@ public class CreateEvent extends AppCompatActivity {
 
     public void submitButton(View view) {
         Event e = new Event(name.getText().toString(), date.getText().toString(), time.getText().toString(), loc.getText().toString(), des.getText().toString());
+        
     }
 
 

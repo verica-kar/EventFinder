@@ -2782,6 +2782,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2789,6 +2790,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id desc
 id description
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -2886,6 +2888,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loc
 id location
 id marquee
 id masked
@@ -2944,6 +2947,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2988,6 +2992,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3255,6 +3260,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account
 layout activity_create_event
+layout activity_event_adapter
+layout activity_event_view_holder
 layout activity_main
 layout activity_moderate
 layout custom_dialog
@@ -3273,6 +3280,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout event_entries
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

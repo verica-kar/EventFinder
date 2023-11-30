@@ -30,6 +30,8 @@ public class EventAdapter extends RecyclerView.Adapter<EventViewHolder> {
 //        itemView.setOnLongClickListener(mainAct);
 
         return new EventViewHolder(itemView);
+
+
     }
 
     @Override

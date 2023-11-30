@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\McClure\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:5:5-49:19
+17-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:5:5-63:19
 18        android:allowBackup="true"
 18-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,8 +46,8 @@
 29-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:13:9-49
 30        <activity
 30-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:15:9-21:20
-31            android:name="com.example.eventfinder.CreateEvent"
-31-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:16:13-40
+31            android:name="com.example.eventfinder.EventAdapter"
+31-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:16:13-41
 32            android:exported="false" >
 32-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:17:13-37
 33            <meta-data
@@ -59,8 +59,8 @@
 36        </activity>
 37        <activity
 37-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:22:9-28:20
-38            android:name="com.example.eventfinder.Moderate"
-38-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:23:13-37
+38            android:name="com.example.eventfinder.EventViewHolder"
+38-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:23:13-44
 39            android:exported="false" >
 39-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:24:13-37
 40            <meta-data
@@ -72,8 +72,8 @@
 43        </activity>
 44        <activity
 44-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:29:9-35:20
-45            android:name="com.example.eventfinder.Account"
-45-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:30:13-36
+45            android:name="com.example.eventfinder.CreateEvent"
+45-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:30:13-40
 46            android:exported="false" >
 46-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:31:13-37
 47            <meta-data
@@ -84,51 +84,77 @@
 49-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
 50        </activity>
 51        <activity
-51-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:36:9-48:20
-52            android:name="com.example.eventfinder.MainActivity"
-52-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:37:13-41
-53            android:exported="true" >
-53-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:38:13-36
-54            <intent-filter>
-54-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:39:13-43:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:40:17-69
-55-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:40:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:42:17-77
-57-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:42:27-74
-58            </intent-filter>
-59
-60            <meta-data
-60-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
-61                android:name="android.app.lib_name"
-61-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
-62                android:value="" />
-62-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
-63        </activity>
-64
-65        <provider
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-66            android:name="androidx.startup.InitializationProvider"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-67            android:authorities="com.example.eventfinder.androidx-startup"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-68            android:exported="false" >
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-69            <meta-data
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-71                android:value="androidx.startup" />
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-72            <meta-data
-72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-74                android:value="androidx.startup" />
-74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-75        </provider>
-76    </application>
-77
-78</manifest>
+51-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:36:9-42:20
+52            android:name="com.example.eventfinder.Moderate"
+52-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:37:13-37
+53            android:exported="false" >
+53-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:38:13-37
+54            <meta-data
+54-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+57        </activity>
+58        <activity
+58-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:43:9-49:20
+59            android:name="com.example.eventfinder.Account"
+59-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:44:13-36
+60            android:exported="false" >
+60-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:45:13-37
+61            <meta-data
+61-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+62                android:name="android.app.lib_name"
+62-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+63                android:value="" />
+63-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+64        </activity>
+65        <activity
+65-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:50:9-62:20
+66            android:name="com.example.eventfinder.MainActivity"
+66-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:51:13-41
+67            android:exported="true" >
+67-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:52:13-36
+68            <intent-filter>
+68-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:53:13-57:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:54:17-69
+69-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:54:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:56:17-77
+71-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:56:27-74
+72            </intent-filter>
+73
+74            <meta-data
+74-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:18:13-20:36
+75                android:name="android.app.lib_name"
+75-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:19:17-52
+76                android:value="" />
+76-->C:\Users\McClure\AndroidStudioProjects\git project 2\EventFinder\app\src\main\AndroidManifest.xml:20:17-33
+77        </activity>
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.example.eventfinder.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\McClure\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\McClure\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+89        </provider>
+90    </application>
+91
+92</manifest>

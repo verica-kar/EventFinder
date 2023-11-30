@@ -2781,6 +2781,7 @@ int id currentState 0x7f08008b
 int id custom 0x7f08008c
 int id customPanel 0x7f08008d
 int id cut 0x7f08008e
+int id date 0x7f0801ec
 int id date_picker_actions 0x7f08008f
 int id decelerate 0x7f080090
 int id decelerateAndComplete 0x7f080091
@@ -2788,6 +2789,7 @@ int id decor_content_parent 0x7f080092
 int id default_activity_button 0x7f080093
 int id deltaRelative 0x7f080094
 int id dependency_ordering 0x7f080095
+int id desc 0x7f0801ed
 int id description 0x7f080096
 int id design_bottom_sheet 0x7f080097
 int id design_menu_item_action_area 0x7f080098
@@ -2885,6 +2887,7 @@ int id line3 0x7f0800f3
 int id linear 0x7f0800f4
 int id listMode 0x7f0800f5
 int id list_item 0x7f0800f6
+int id loc 0x7f0801ee
 int id location 0x7f0800f7
 int id marquee 0x7f0800f8
 int id masked 0x7f0800f9
@@ -2943,6 +2946,7 @@ int id mtrl_picker_text_input_range_start 0x7f08012d
 int id mtrl_picker_title_text 0x7f08012e
 int id mtrl_view_tag_bottom_padding 0x7f08012f
 int id multiply 0x7f080130
+int id name 0x7f0801ef
 int id navigation_bar_item_active_indicator_view 0x7f080131
 int id navigation_bar_item_icon_container 0x7f080132
 int id navigation_bar_item_icon_view 0x7f080133
@@ -2987,6 +2991,7 @@ int id progress_horizontal 0x7f080159
 int id radio 0x7f08015a
 int id ratio 0x7f08015b
 int id rectangles 0x7f08015c
+int id recycler 0x7f0801f0
 int id reverseSawtooth 0x7f08015d
 int id right 0x7f08015e
 int id rightToLeft 0x7f08015f
@@ -3254,6 +3259,8 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_account 0x7f0b001c
 int layout activity_create_event 0x7f0b001d
+int layout activity_event_adapter 0x7f0b006a
+int layout activity_event_view_holder 0x7f0b006b
 int layout activity_main 0x7f0b001e
 int layout activity_moderate 0x7f0b001f
 int layout custom_dialog 0x7f0b0020
@@ -3272,6 +3279,7 @@ int layout design_navigation_menu 0x7f0b002c
 int layout design_navigation_menu_item 0x7f0b002d
 int layout design_text_input_end_icon 0x7f0b002e
 int layout design_text_input_start_icon 0x7f0b002f
+int layout event_entries 0x7f0b006c
 int layout m3_alert_dialog 0x7f0b0030
 int layout m3_alert_dialog_actions 0x7f0b0031
 int layout m3_alert_dialog_title 0x7f0b0032
