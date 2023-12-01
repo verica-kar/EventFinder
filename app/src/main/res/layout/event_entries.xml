@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@android:color/holo_red_light"
     android:layout_height="wrap_content">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_marginTop="16dp"
         android:text="Name"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,6 +28,7 @@
         android:layout_marginEnd="83dp"
         android:text="Date"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/time"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -37,6 +40,7 @@
         android:layout_marginTop="16dp"
         android:text="Time"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -50,6 +54,7 @@
         android:layout_marginEnd="16dp"
         android:text="Location"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/time"
         app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -64,6 +69,7 @@
         android:layout_marginBottom="16dp"
         android:text="Description"
         android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
