@@ -1,5 +1,6 @@
 package com.example.eventfinder;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +8,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -64,7 +67,11 @@ public class CreateEvent extends AppCompatActivity {
 //                }
 //            }
 
+<<<<<<< HEAD
+            Intent data = new Intent(this, MainActivity.class);
+=======
             Intent data = new Intent(this , MainActivity.class);
+>>>>>>> cc9682d635be5c8aee2a5f8d551e73582ce5733b
             data.putExtra(key, e);
             if (intent.hasExtra("EDIT_POS")) {
                 int pos = intent.getIntExtra("EDIT_POS", 0);
@@ -122,5 +129,52 @@ public class CreateEvent extends AppCompatActivity {
         builder.setMessage("Do you want to save your changes before exiting?");
         AlertDialog dialog = builder.create();
         dialog.show();
+    }
+
+    public boolean onCreateOptionsMenu(@NonNull Menu menu){
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+    public boolean switchAccountMenu(MenuItem mi){
+
+        //Log.d(TAG, "switchActivity: ");
+        Intent intent = new Intent(this, Account.class);
+//        intent.putExtra("deg" , deg);
+//        intent.putExtra("location" , location);
+        //add things to intent
+        startActivity(intent);
+
+        return true;
+    }
+
+    public boolean switchModerationMenu(MenuItem mi){
+
+        //Log.d(TAG, "switchActivity: ");
+        Intent intent = new Intent(this, Moderate.class);
+
+        //add things to intent
+        startActivity(intent);
+
+        return true;
+    }
+//    public boolean switchCreateEventMenu(MenuItem mi){
+//
+//        //Log.d(TAG, "switchActivity: ");
+//        Intent intent = new Intent(this, CreateEvent.class);
+//
+//        //add things to intent
+//        startActivity(intent);
+//
+//        return true;
+//    }
+    public boolean switchEventsMenu(MenuItem mi){
+
+        //Log.d(TAG, "switchActivity: ");
+        Intent intent = new Intent(this, MainActivity.class);
+
+        //add things to intent
+        startActivity(intent);
+
+        return true;
     }
 }
