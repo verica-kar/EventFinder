@@ -48,9 +48,9 @@ public class Account extends AppCompatActivity {
         }
 
         if (acc.getNotif()) {
-            p.setText("Yes");
+            no.setText("Yes");
         } else {
-            p.setText("No");
+            no.setText("No");
         }
     }
 
