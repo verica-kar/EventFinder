@@ -53,20 +53,14 @@ public class MainActivity extends AppCompatActivity {
         eventList.add(new Event("Rock Climbing" , "Wednesday" , "5:00" , "MTCC" , "Meet us for weekly climbing gym trips"));
         eventList.add(new Event("Lettuce club" , "12/25/23" , "8:00" , "Fire place" , "Christmas morning lettuce breakfast for international students"));
         eventList.add(new Event("Student Life" , "10/31/23" , "7:30" , "Your Dorm" , "Reverse trick or treat!"));
-<<<<<<< HEAD
 
-=======
->>>>>>> cc9682d635be5c8aee2a5f8d551e73582ce5733b
         Intent intent = getIntent();
         if (intent.hasExtra("NEW_EVENT")){
             Event newEvent = (Event) intent.getSerializableExtra("NEW_EVENT");
             eventList.add(newEvent);
             Log.d("", "onCreate: add new event");
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc9682d635be5c8aee2a5f8d551e73582ce5733b
         activityResultLauncher = registerForActivityResult(
                 new ActivityResultContracts.StartActivityForResult(),
                 this::handleResult);
@@ -223,14 +217,14 @@ public class MainActivity extends AppCompatActivity {
 
         return true;
     }
-//    public boolean switchEventsMenu(MenuItem mi){
-//
-//        //Log.d(TAG, "switchActivity: ");
-//        Intent intent = new Intent(this, MainActivity.class);
-//
-//        //add things to intent
-//        startActivity(intent);
-//
-//        return true;
-//    }
+    public boolean switchEventsMenu(MenuItem mi){
+
+        //Log.d(TAG, "switchActivity: ");
+        Intent intent = new Intent(this, MainActivity.class);
+
+        //add things to intent
+        startActivity(intent);
+
+        return true;
+    }
 }

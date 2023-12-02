@@ -270,7 +270,7 @@
             "outputFile": "com.example.eventfinder.app-merged_res-29:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\git project 3\\EventFinder\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\gp4\\EventFinder\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1285,25 +1285,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\git project 3\\EventFinder\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "814"
-                    },
-                    "to": {
-                        "startLines": "5851",
-                        "startColumns": "4",
-                        "startOffsets": "397771",
-                        "endLines": "5863",
-                        "endColumns": "12",
-                        "endOffsets": "398350"
-                    }
-                },
-                {
                     "source": "C:\\Users\\McClure\\.gradle\\caches\\transforms-3\\b975d4bc4d6d45f491a86fff0fa3caaf\\transformed\\viewpager2-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -1378,23 +1359,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\git project 3\\EventFinder\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "611,835,836,837,848,849,852",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "31106,47164,47211,47258,48002,48047,48213",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "31143,47206,47253,47300,48042,48087,48250"
-                    }
-                },
-                {
                     "source": "C:\\Users\\McClure\\.gradle\\caches\\transforms-3\\273ca4663cd986fcff7161fb28fd2d01\\transformed\\appcompat-resources-1.6.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -1411,6 +1375,25 @@
                         "endLines": "8464,8470,8480,11918,11922",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "566006,566184,566468,692526,692653"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\gp4\\EventFinder\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "814"
+                    },
+                    "to": {
+                        "startLines": "5851",
+                        "startColumns": "4",
+                        "startOffsets": "397771",
+                        "endLines": "5863",
+                        "endColumns": "12",
+                        "endOffsets": "398350"
                     }
                 },
                 {
@@ -1448,23 +1431,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\git project 3\\EventFinder\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,67",
-                        "endColumns": "48,47",
-                        "endOffsets": "61,110"
-                    },
-                    "to": {
-                        "startLines": "1690,1709",
-                        "startColumns": "4,4",
-                        "startOffsets": "105250,107543",
-                        "endColumns": "48,47",
-                        "endOffsets": "105294,107586"
-                    }
-                },
-                {
                     "source": "C:\\Users\\McClure\\.gradle\\caches\\transforms-3\\9811bf6e0ea8002748e1a5d1e9eb40bd\\transformed\\core-1.9.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,103,113,146,167,200",
@@ -1481,6 +1447,23 @@
                         "endLines": "443,605,606,825,826,939,940,941,942,943,944,945,1449,1450,1451,1452,1453,1454,1455,1456,1457,1458,1459,1460,1461,1462,1463,1474,1475,1476,1477,1478,1479,1480,1481,1482,1483,1484,1485,1486,1487,1488,1489,1490,1491,1492,1493,1494,1495,1496,1497,1498,1499,1500,1501,1502,1503,1504,1505,1506,1507,1508,1518,1519,1546,1547,1548,1549,1550,1551,1552,1553,1554,1555,1556,1557,1558,1559,1560,1568,1657,1812,5513,5517,5518,5522,5523,6548,6549,9250,9618,10475,10496,10544,10550",
                         "endColumns": "59,71,87,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
                         "endOffsets": "22569,30694,30782,46508,46571,54059,54127,54199,54269,54330,54404,54477,90625,90686,90748,90812,90874,90935,91003,91103,91163,91229,91302,91371,91428,91480,91542,92344,92420,92485,92544,92603,92663,92723,92783,92843,92903,92963,93023,93083,93143,93203,93262,93322,93382,93442,93502,93562,93622,93682,93742,93802,93862,93921,93981,94041,94100,94159,94218,94277,94336,94395,94879,94914,96361,96424,96479,96537,96595,96656,96719,96776,96827,96877,96938,96995,97061,97095,97130,97512,102976,122408,377150,377351,377461,377662,377791,449093,449160,593121,605776,640686,641367,642593,642760"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\gp4\\EventFinder\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "611,835,836,837,848,849,852",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "31106,47164,47211,47258,48002,48047,48213",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "31143,47206,47253,47300,48042,48087,48250"
                     }
                 },
                 {
@@ -1555,6 +1538,23 @@
                         "startOffsets": "97908",
                         "endColumns": "42",
                         "endOffsets": "97946"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\gp4\\EventFinder\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,67",
+                        "endColumns": "48,47",
+                        "endOffsets": "61,110"
+                    },
+                    "to": {
+                        "startLines": "1690,1709",
+                        "startColumns": "4,4",
+                        "startOffsets": "105250,107543",
+                        "endColumns": "48,47",
+                        "endOffsets": "105294,107586"
                     }
                 },
                 {

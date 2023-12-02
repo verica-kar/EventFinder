@@ -67,11 +67,11 @@ public class CreateEvent extends AppCompatActivity {
 //                }
 //            }
 
-<<<<<<< HEAD
-            Intent data = new Intent(this, MainActivity.class);
-=======
+//<<<<<<< HEAD
+            //Intent data = new Intent(this, MainActivity.class);
+//=======
             Intent data = new Intent(this , MainActivity.class);
->>>>>>> cc9682d635be5c8aee2a5f8d551e73582ce5733b
+//>>>>>>> cc9682d635be5c8aee2a5f8d551e73582ce5733b
             data.putExtra(key, e);
             if (intent.hasExtra("EDIT_POS")) {
                 int pos = intent.getIntExtra("EDIT_POS", 0);
@@ -157,16 +157,16 @@ public class CreateEvent extends AppCompatActivity {
 
         return true;
     }
-//    public boolean switchCreateEventMenu(MenuItem mi){
-//
-//        //Log.d(TAG, "switchActivity: ");
-//        Intent intent = new Intent(this, CreateEvent.class);
-//
-//        //add things to intent
-//        startActivity(intent);
-//
-//        return true;
-//    }
+    public boolean switchCreateEventMenu(MenuItem mi){
+
+        //Log.d(TAG, "switchActivity: ");
+        Intent intent = new Intent(this, CreateEvent.class);
+
+        //add things to intent
+        startActivity(intent);
+
+        return true;
+    }
     public boolean switchEventsMenu(MenuItem mi){
 
         //Log.d(TAG, "switchActivity: ");

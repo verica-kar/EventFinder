@@ -4,7 +4,7 @@
             "outputFile": "com.example.eventfinder.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\git project 3\\EventFinder\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\McClure\\AndroidStudioProjects\\gp4\\EventFinder\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

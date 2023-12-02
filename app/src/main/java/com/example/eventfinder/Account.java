@@ -58,17 +58,17 @@ public class Account extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
-//    public boolean switchAccountMenu(MenuItem mi){
-//
-//        //Log.d(TAG, "switchActivity: ");
-//        Intent intent = new Intent(this, Account.class);
-////        intent.putExtra("deg" , deg);
-////        intent.putExtra("location" , location);
-//        //add things to intent
-//        startActivity(intent);
-//
-//        return true;
-//    }
+    public boolean switchAccountMenu(MenuItem mi){
+
+        //Log.d(TAG, "switchActivity: ");
+        Intent intent = new Intent(this, Account.class);
+//        intent.putExtra("deg" , deg);
+//        intent.putExtra("location" , location);
+        //add things to intent
+        startActivity(intent);
+
+        return true;
+    }
 
     public boolean switchModerationMenu(MenuItem mi){
 
